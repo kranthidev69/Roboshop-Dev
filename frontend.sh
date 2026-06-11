@@ -6,7 +6,7 @@ rm -rf /usr/share/nginx/html/*
 curl -o /tmp/frontend.zip https://roboshop-artifacts.s3.amazonaws.com/frontend-v3.zip
 
 rm -f/etc/nginx/nginx.Conf
-cp nginx.conf /etc/nginx.conf
+cp nginx.conf /etc/nginx/nginx.conf
 
 
 cd /usr/share/nginx/html
